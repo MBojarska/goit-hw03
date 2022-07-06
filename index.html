@@ -1,0 +1,183 @@
+<!--Walidator sugeruje, że podział na <section> jest niepotrzebny.-->
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--Logo w <header> i stopce to link z tekstem, a nie obraz.-->
+      <a href="/"
+        ><span class="web">Web</span><span class="studio-top">Studio</span></a
+      >
+      <nav>
+        <!-- Nawigacja do innych sekcji -->
+        <ul>
+          <li><a href="index.html">Agencja</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <ul class="contact">
+        <!-- Link do adresu e-mail  -->
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <!-- Link do numeru telefonu -->
+        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      </ul>
+
+      <div>
+        <h1>Efektywne rozwiązania dla waszego biznesu</h1>
+        <button type="button" class="order">Zamów usługę</button>
+      </div>
+    </header>
+    <section>
+      <ul class="lorem">
+        <li>
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            consectetur fuga iure quod ipsum, voluptates neque inventore!
+          </p>
+        </li>
+        <li>
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            consectetur fuga iure quod ipsum, voluptates neque inventore!
+          </p>
+        </li>
+        <li>
+          <h3>Lorem, ipsum.</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            consectetur fuga iure quod ipsum, voluptates neque inventore!
+          </p>
+        </li>
+        <li>
+          <h3>Lorem, ipsum.</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            consectetur fuga iure quod ipsum, voluptates neque inventore!
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Czym się zajmujemy?</h2>
+      <ul>
+        <li>
+          <img
+            src="https://github.com/MBojarska/goit-markup-hw-01/blob/main/images/images/taskbox1sq.jpg?raw=true"
+            alt="Pisanie na klawiaturze"
+            width="370"
+            height="294"
+          />
+        </li>
+        <li>
+          <img
+            src="https://github.com/MBojarska/goit-markup-hw-01/blob/main/images/images/taskbox2sq.jpg?raw=true"
+            alt="Strony na telefon i komputer"
+            width="370"
+            height="294"
+          />
+        </li>
+        <li>
+          <img
+            src="https://github.com/MBojarska/goit-markup-hw-01/blob/main/images/images/taskbox3sq.jpg?raw=true"
+            alt="Kolorowe tablety"
+            width="370"
+            height="294"
+          />
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="agencja">Nasz zespół</h2>
+      <ul class="our-team">
+        <li>
+          <figure>
+            <img
+              src="https://github.com/MBojarska/goit-markup-hw-01/blob/main/images/images/johndoe1sq.jpg?raw=true"
+              alt="Zdjęcie Johna Doe 1"
+              width="260"
+              height="270"
+            />
+            <figcaption>
+              <h4>John Doe</h4>
+              <p>Product Designer</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img
+              src="https://github.com/MBojarska/goit-markup-hw-01/blob/main/images/images/janedoesq.jpg?raw=true"
+              alt="Zdjęcie Jane Doe"
+              width="260"
+              height="270"
+            />
+            <figcaption>
+              <h4>Jane Doe</h4>
+              <p>Frontend Developer</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img
+              src="https://github.com/MBojarska/goit-markup-hw-01/blob/main/images/images/johndoe2sq.jpg?raw=true"
+              alt="Zdjęcie Johna Doe 2"
+              width="260"
+              height="270"
+            />
+            <figcaption>
+              <h4>John Doe</h4>
+              <p>Marketing</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img
+              src="https://github.com/MBojarska/goit-markup-hw-01/blob/main/images/images/johndoe3sq.jpg?raw=true"
+              alt="Zdjęcie Johna Doe 3"
+              width="260"
+              height="270"
+            />
+            <figcaption>
+              <h4>John Doe</h4>
+              <p>UI Designer</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <a href="/"
+        ><span class="web">Web</span><span class="studio">Studio</span></a
+      >
+      <address id="kontakt">
+        <ul class="contact-footer">
+          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+          <!-- Link do adresu e-mail  -->
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <!-- Link do numeru telefonu -->
+          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
