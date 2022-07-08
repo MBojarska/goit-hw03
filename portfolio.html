@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
@@ -13,28 +17,30 @@
   </head>
   <body>
     <header>
-      <!--Logo w <header> i stopce to link z tekstem, a nie obraz.-->
-      <a href="/"
-        ><span class="web">Web</span><span class="studio-top">Studio</span></a
-      >
-      <nav>
-        <!-- Nawigacja do innych sekcji -->
-        <ul>
-          <li><a href="index.html">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+      <div class="page-top">
+        <!--Logo w <header> i stopce to link z tekstem, a nie obraz.-->
+        <a href="/" class="webstudio-top"
+          ><span class="web">Web</span><span class="studio-top">Studio</span></a
+        >
+        <nav>
+          <!-- Nawigacja do innych sekcji -->
+          <ul class="navigation">
+            <li><a href="index.html">Agencja</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="contact top">
+          <!-- Link do adresu e-mail  -->
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <!-- Link do numeru telefonu -->
+          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul class="contact">
-        <!-- Link do adresu e-mail  -->
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <!-- Link do numeru telefonu -->
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      </div>
     </header>
-    <main>
-      <div>
-        <ul>
+    <main class="container">
+      <div class="section">
+        <ul class="sort">
           <li><button type="button">Wszystko</button></li>
           <li><button type="button">Strony</button></li>
           <li><button type="button">Aplikacje</button></li>
@@ -42,8 +48,8 @@
           <li><button type="button">Marketing</button></li>
         </ul>
       </div>
-      <div>
-        <ul>
+      <div class="section works-container">
+        <ul class="works">
           <li>
             <figure>
               <img
@@ -151,7 +157,7 @@
                 height="294"
               />
               <figcaption>
-                <h4>Projekt Lab</h4>
+                <h4>Projekt LAB</h4>
                 <p>Marketing</p>
               </figcaption>
             </figure>
@@ -173,8 +179,8 @@
         </ul>
       </div>
     </main>
-    <footer>
-      <a href="/"
+    <footer class="container">
+      <a href="/" class="webstudio-bottom"
         ><span class="web">Web</span><span class="studio">Studio</span></a
       >
       <address id="kontakt">
