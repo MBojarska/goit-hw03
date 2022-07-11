@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   list-style: none;
   font-style: normal;
   box-sizing: border-box;
@@ -11,7 +13,7 @@ body {
   font-family: "Roboto";
 }
 .container {
-  width: 1600px;
+  width: 1200px;
 }
 .section {
   padding: 94px 0;
@@ -19,6 +21,7 @@ body {
 .page-top {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 h1 {
@@ -28,13 +31,26 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-bottom: 30px;
+  color: #ffffff;
 
   color: #ffffff;
+}
+.title-background {
+  height: 600px;
+  background-color: #2f303a;
+}
+  .page-title {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color: #2f303a;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 a {
   text-decoration: none;
@@ -53,7 +69,6 @@ a:visited {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88px;
-  /* identical to box height, or 188% */
   align-items: center;
   color: #ffffff;
   margin-top: 30px;
@@ -95,15 +110,17 @@ button:focus {
 }
 .webstudio-top {
   display: block;
-  padding: 24px 93px 25px 215px;
+  padding: 24px 0 25px 15px;
+  margin-right: 93px;
 }
 
 .navigation {
   display: flex;
-  padding-right: 371px;
+  width: 254px;
+  margin-right: 321px;
 }
 .navigation > li {
-  padding-right: 46px;
+  margin-right: 46px;
 }
 nav a {
   font-weight: 500;
@@ -121,12 +138,11 @@ nav a:hover {
 
   color: #2196f3;
 }
-.top {
+.contact {
   display: flex;
-  padding-right: 271;
 }
-.top > li {
-  padding-right: 50px;
+.contact > li {
+  margin-left: 50px;
 }
 .contact a {
   font-weight: 500;
@@ -147,15 +163,7 @@ nav a:hover {
 
   color: #2196f3;
 }
-.page-title {
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  background-color: #2f303a;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
+
 h2 {
   display: block;
   font-weight: 700;
@@ -250,7 +258,7 @@ h3 {
   color: #757575;
 }
 .contact-footer {
-  padding-left: 215px;
+  padding-left: 15px;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -285,15 +293,14 @@ h3 {
 
   color: #2196f3;
 }
-footer {
-  width: 1600px;
+.footer {
   height: 252px;
   background: #2f303a;
 }
 .webstudio-bottom {
   display: block;
   padding-top: 60px;
-  padding-left: 215px;
+  padding-left: 15px;
 }
 .web {
   font-family: "Raleway";
@@ -331,8 +338,8 @@ footer {
 }
 
 /* portfolio */
-.portfolio-header {display: block;
-  border-bottom: solid 1px #e5e5e5;
+.portfolio-header {
+  display: block;
 }
 .portfolio {
   background-color: #ffffff;
@@ -359,7 +366,7 @@ footer {
   border: solid 1px #eee;
 }
 .works-container {
-  padding: 0 215px;
+  padding: 0 15px;
 }
 .works h4 {
   font-size: 18px;

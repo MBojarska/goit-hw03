@@ -16,8 +16,8 @@
     />
   </head>
   <body class="portfolio">
-    <header class="portfolio-header container">
-      <div class="page-top">
+    <header class="portfolio-header">
+      <div class="container page-top">
         <!--Logo w <header> i stopce to link z tekstem, a nie obraz.-->
         <a href="/" class="webstudio-top"
           ><span class="web">Web</span><span class="studio-top">Studio</span></a
@@ -38,9 +38,9 @@
         </ul>
       </div>
     </header>
-    <main class="container">
+    <main>
       <section class="section">
-        <div>
+        <div class="container">
           <ul class="sort">
             <li><button type="button">Wszystko</button></li>
             <li><button type="button">Strony</button></li>
@@ -49,7 +49,7 @@
             <li><button type="button">Marketing</button></li>
           </ul>
         </div>
-        <div class="section works-container">
+        <div class="container works-container">
           <ul class="works">
             <li>
               <figure>
@@ -181,19 +181,25 @@
         </div>
       </section>
     </main>
-    <footer class="container">
-      <a href="/" class="webstudio-bottom"
-        ><span class="web">Web</span><span class="studio">Studio</span></a
-      >
-      <address id="kontakt">
-        <ul class="contact-footer">
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <!-- Link do adresu e-mail  -->
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <!-- Link do numeru telefonu -->
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
-      </address>
+    <footer>
+      <section class="section>">
+        <div class="container footer">
+          <a href="/" class="webstudio-bottom"
+            ><span class="web">Web</span><span class="studio">Studio</span></a
+          >
+          <address id="kontakt">
+            <ul class="contact-footer">
+              <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+              <!-- Link do adresu e-mail  -->
+              <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <!-- Link do numeru telefonu -->
+              <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul>
+          </address>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
