@@ -186,6 +186,7 @@ h3 {
 }
 .images {
   display: flex;
+  justify-content: space-between;
   gap: 30px;
 }
 .lorem {
@@ -214,6 +215,7 @@ h3 {
 }
 .our-team {
   display: flex;
+  justify-content: space-between;
   gap: 30px;
 }
 
@@ -230,6 +232,7 @@ h3 {
 .our-team p {
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 30px;
   /* identical to box height */
 
   letter-spacing: 0.03em;
